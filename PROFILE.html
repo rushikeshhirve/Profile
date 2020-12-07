@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Profile</title>
+    <style>
+        body {
+            background-image: url('html-color-codes-color-tutorials-hero.jpg');
+            background-image: linear-gradient(rgba(85, 168, 224, 0.5), rgba(0, 0, 0, 0.4));
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        .navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #10afa2;
+            border-radius: 6px;
+        }
+
+        .navbar li {
+            float: left;
+        }
+
+        .navbar li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 1px 15px;
+            text-decoration: none;
+        }
+
+        .navbar li a:hover {
+            background-color: #76ac11;
+            color: rgb(228, 244, 255);
+        }
+
+        .search {
+            float: right;
+            padding: 4px 29px;
+            margin: 6px;
+        }
+
+        ul input {
+            border: 2px solid black;
+        }
+
+        .profile {
+            text-align: center;
+            margin-top: 150px;
+        }
+
+        .education {
+            text-align: center;
+            margin-top: 270px;
+        }
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .Skills {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .Skills b {
+            color: rgb(7, 16, 22);
+        }
+
+        .personalinfo h2,
+        p {
+            text-align: center;
+        }
+
+        .personalinfo ul {
+            display: table;
+            margin: 0 auto;
+        }
+
+        .contact h2 {
+            text-align: center;
+        }
+
+        img {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="navbar">
+            <li><a href="#pro">Home</a></li>
+            <li><a href="https://www.hackerrank.com/rushikeshhirve09?h_r=internal-search&hr_r=1">Hackerrank Profile</a>
+            </li>
+            <li><a href="https://drive.google.com/file/d/1WiN_odYqbYTnfgficOlvTztM4ESmztRC/view?usp=sharing">My
+                    resume</a></li>
+            <li><a href="#edu">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div>
+                <input type="text" name="searchbox" class="search" placeholder="Search here">
+            </div>
+        </ul>
+    </nav>
+
+    <div id="pro" class="profile">
+        <img src="myphoto3.jpeg" class="center" widht="110px" height="180px">
+        <h2>Rushieksh Hirve</h2>
+        <p>Navi Mumbai, Maharastra</p>
+        <p>Electronics Engineer</p>
+    </div>
+
+    <div id="edu" class="education">
+        <h1>Educational Details</h1>
+
+        <table class="center">
+            <tr>
+                <th>Cource</th>
+                <th>School/ Collage name</th>
+                <th>Percentage</th>
+            </tr>
+            <tr>
+                <td>SSC</td>
+                <td>Terna Vidyala</td>
+                <td>86.80</td>
+            </tr>
+            <tr>
+                <td>Diploma</td>
+                <td>Veermata jijabai Technological Institute</td>
+                <td>75.93</td>
+            </tr>
+            <tr>
+                <td>degree</td>
+                <td>Sardar Patel Institute if technology</td>
+                <td>69.12</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="Skills">
+        <h1>Skills</h1>
+        <h3><b>Software Languages :</b><i>Python, C, SQL</i> </h3>
+        <h3><b>Software used :</b> <i>Proteus, Multisim, VS Code</i></h3>
+        <h3><b>Web Language :</b> <i>HTML, CSS, JS</i></h3>
+    </div>
+
+    <div class="personalinfo">
+
+        <ul>
+            <h2>Personal Information</h2>
+            <p>Further information about myself </p>
+            <li>
+                <h5><b>Nationality: Indian</b></h5>
+            </li>
+            <li>
+                <h5><b>Date Of Birth: 9th July 1999</b></h5>
+            </li>
+            <li>
+                <h5><b>Area of Interest: Listening Music, travelling, Comdey Shows</b></h5>
+            </li>
+        </ul>
+    </div>
+
+    <div id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Rushikesh Hirve</p>
+        <p>Mobile No : +91 9820750266</p>
+        <p>Email id : rushikeshhirve09@gmail.com
+        <p>
+    </div>
+
+</body>
+
+</html>
